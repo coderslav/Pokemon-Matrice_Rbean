@@ -1,5 +1,5 @@
 class Pokemon {
-    constructor(name, vocabulary = this.name + ' ' + this.name) {
+    constructor(name, vocabulary = name + ' ' + name) {
         this.name = name;
         this.vocabulary = vocabulary;
         this.xp = 0;

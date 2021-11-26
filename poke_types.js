@@ -3,14 +3,14 @@ const Pokemon = require('./pokemon.js');
 class ElectricPokemon extends Pokemon {
     constructor(name, vocabulary) {
         super(name, vocabulary);
-        this.vocabulary = super.vocabulary + ' ⚡️';
+        this.vocabulary = this.vocabulary + ' ⚡️';
     }
 }
 
 class FirePokemon extends Pokemon {
     constructor(name, vocabulary) {
         super(name, vocabulary);
-        this.vocabulary = super.vocabulary + ' 🔥';
+        this.vocabulary = this.vocabulary + ' 🔥';
     }
 
     burn(text) {
