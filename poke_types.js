@@ -14,7 +14,7 @@ class FirePokemon extends Pokemon {
     }
 
     burn(text) {
-        console.log("I'm burning" + text);
+        console.log("I'm burning " + text);
     }
 }
 

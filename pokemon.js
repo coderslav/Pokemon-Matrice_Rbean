@@ -10,7 +10,7 @@ class Pokemon {
         console.log(this.vocabulary);
     }
     shout() {
-        console.log(this.vocabulary.toUpperCase());
+        console.log(this.vocabulary.toUpperCase() + '!!!');
     }
     add_xp(number) {
         this.xp = this.xp + number;

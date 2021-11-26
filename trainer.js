@@ -15,7 +15,7 @@ class Trainer {
         }
     }
     launch_at(pokeball, pokemon) {
-        if (pokemon.master === this.name) {
+        if (pokemon.master === this) {
             pokeball.store(pokemon);
             return true;
         } else {
